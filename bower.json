@@ -9,7 +9,7 @@
   	"font-awesome": "~4.3.0",
     "slick.js": "~1.5.5",
     "modernizr": "~2.6.2",
-    "jquery": "~1.9.1"
+    "gmap3": "6.0.0"
   },
   "devDependencies": {
   	"Bootflat": "~2.0.4"

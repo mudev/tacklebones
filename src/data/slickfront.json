@@ -3,12 +3,22 @@
 		{
 			"id": "0",
 			"name":"East Marina Dusk",
-			"uri":"images/eastnite.jpg"
+			"uri":"images/slides/eastnite.jpg"
 		},
 		{
 			"id": "1",
-			"name":"The Box",
-			"uri":"images/tbfront.jpg"
+			"name":"Aerial Marina",
+			"uri":"images/slides/bmair.jpg"
+		},
+		{
+			"id": "2",
+			"name":"East Wall",
+			"uri":"images/slides/marinaeastlarge.jpg"
+		},
+		{
+			"id": "3",
+			"name":"East Wall 2",
+			"uri":"images/slides/bmewfw.jpg"
 		}
 	]
 }

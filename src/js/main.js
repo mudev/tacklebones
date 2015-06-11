@@ -19,6 +19,31 @@ var app = (function(document, $) {
 				swipeToSlide: true,
 				touchThreshold: 2
 			});
+			$(".gmap3").gmap3({
+				map:{
+		            options:{
+		            	center:[50.81211775, -0.10378405],
+		            	zoom:17,
+		            	mapTypeId: google.maps.MapTypeId.MAP,
+		            	mapTypeControl: true,
+		            	mapTypeControlOptions: {
+		            		style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+		            	},
+		            	navigationControl: true,
+		            	scrollwheel: true,
+		            	streetViewControl: true
+		            }
+		        }
+		    });
+        	$("#test1").gmap3({
+        		marker:{
+        			latLng:[50.81211775,-0.10378405],
+        			options: {
+        				icon: new google.maps.MarkerImage("http://gmap3.net/skin/gmap/magicshow.png",
+        					new google.maps.Size(32, 37, "px", "px"))
+        			}
+        		}
+        	});
 			_userAgentInit();
 		};
 	return {
