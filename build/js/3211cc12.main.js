@@ -1,0 +1,1 @@
+"use strict";var app=function(a,b){var c=a.documentElement,d=function(){c.setAttribute("data-useragent",navigator.userAgent)},e=function(){b(".slidefront").slick({dots:!0,slidesToShow:1,adaptiveHeight:!0,arrows:!0,speed:500,cssEase:"ease-out",swipeToSlide:!0,touchThreshold:2}),d()};return{init:e}}(document,jQuery);!function(){app.init()}();
