@@ -1,0 +1,139 @@
+<!-- Nav -->
+<div class="row">
+  <div class="col-md-12 column">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sitenav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">The Tackle Box</a>
+      </div>
+      <div  id="sitenav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Deals 'n Reels</a></li>
+              <li><a href="#">Kit &amp; Clobber</a></li>
+              <li><a href="#">Tackle</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Charter Fleet</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Breakwaters</a></li>
+              <li><a href="#">Size Regs</a></li>
+              <li class="divider"></li>
+              <li><a href="#">LISA</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Blog 2013</a></li>
+              <li><a href="#">Blog 2012</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">2011 Pollack Comp</a></li>
+              <li><a href="#">2012 Squid Comp</a></li>
+              <li><a href="#">2012 Pollack Comp</a></li>
+              <li><a href="#">2012 Bass Comp</a></li>
+              <li><a href="#">2013 Pollack Comp</a></li>
+              <li><a href="#">2013 Squid Comp</a></li>
+              <li><a href="#">2013 Plaice boat Comp</a></li>
+              <li><a href="#">2014 Pollack Comp</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galleries<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Gallery 2013-14</a></li>
+              <li><a href="#">EventGallery</a></li>
+              <li><a href="#">Gallery 2012</a></li>
+              <li><a href="#">Gallery 1</a></li>
+              <li><a href="#">Gallery 2</a></li>
+              <li><a href="#">Past Gallery</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Contact</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Guest Book</a></li>
+              <li><a href="#">Forum</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Links</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right visible-sm-4" role="search">
+          <div class="form-search search-only">
+            <i class="search-icon glyphicon glyphicon-search"></i>
+            <input type="text" class="form-control search-query input-sm">
+          </div>
+        </form>
+      </div>
+    </nav>
+  </div>
+</div>
+<!--Header-->
+<div class="intro row">
+  <div class="col-lg-8 col-md-8 col-sm-12 column">
+
+    <div class="slidefront">
+      <!-- <figcaption>
+        <h3>The Famous Tackle Box</h3>
+      </figcaption> -->
+          {{#each slickfront.list}}{{> slickimg}}{{/each}}
+          <!-- <img class="img-responsive center-block" src="images/eastnite.jpg" alt="" /> -->
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12 column">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              <span class="padding">Where To Find Us</span>
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <div id="test1" class="gmap3 top"></div>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+              Our Address
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse">
+          <div class="panel-body">
+            <address class="vcard">
+              <div class="adr">
+                <div class="street-address">1 West Quay</div>
+                <div class="locality">Brighton Marina, E.Sussex</div>
+                <div class="postal-code">BN2 5UF</div>
+                <div class="country-name">United Kingdom</div>
+              </div>
+              <div class="tel">Tel: +44 1273 696477</div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

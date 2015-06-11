@@ -1,0 +1,17 @@
+{
+  "name": "tackle-bones",
+  "version": "0.0.1",
+  "authors": [
+    "mudev <muflexnet@gmail.com>"
+  ],
+  "dependencies": {
+  	"bootstrap": "3.3.0",
+  	"font-awesome": "~4.3.0",
+    "slick.js": "~1.5.5",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.9.1"
+  },
+  "devDependencies": {
+  	"Bootflat": "~2.0.4"
+  }
+}
